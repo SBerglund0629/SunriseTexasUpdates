@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> 
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="/css/style-sheet.css">
+
+    <title>JGI - Commercial</title>
+    <link rel='icon' type='image/jpg' href="/images/Logo/FaviconLogo.jpg">
+</head>
+
+<body>
+    <!--Req quote button and phone info-->    
+
+    <nav>
+        <div id="menu">
+    </nav>
+
+
+
+<!--Body-->
+
+    <!--Auto Quote Request-->
+<div class="container-md">
+
+<h2 class='autoReq'></h2>
+
+<form action="https://formsubmit.co/julio@jgiatx.com" method="POST">
+    <input type="hidden" name="_next" value="https://jgarciains.com/ThankYou.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Commerical Quote Request!">
+    <p></p>
+
+    <br>
+    <h2 class='autoReq'>Commercial Insurance Request</h2>
+    <br>
+    <div class="form-group col-md-12">
+        <label for="insType"><h5>Type of Insurance</h5></label>
+        <p>example: General Liability, Contractors Insurance, Property/Building and/or Content, Commercial Auto, Workers Comp, Other (if other, please specify)</p>
+        <input type="insType" class="form-control" name="Ins-Type" id="insType">
+    </div>
+    <div class="row">
+
+    </div>
+    <br><hr><br>
+    <p><h5>General Information</h5></p>
+    <div class="form-row">
+        
+        <div class="form-group col-md-6">
+        <label for="firstName">First Name</label>
+        <input type="firstName" class="form-control" name="First-Name" id="firstName" required>
+    </div>
+    <div class="form-group col-md-6">
+        <label for="lastName">Last Name</label>
+        <input type="lastName" class="form-control" name="Last-Name" id="lastName" required>
+    </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="dba">Doing Business As</label>
+            <input type="text" class="form-control" name="DBA" id="dba">
+        </div>
+        <div class="form-group col-md-4">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="Email" id="email" required>
+    </div>
+    <div class="form-group col-md-4">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="phoneNumber" class="form-control" name="Phone-Number" id="phoneNumber" required>
+    </div>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" name="Mailing-Address" placeholder="1234 Main St">
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" name="City" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <input id="inputState" name="State" class="form-control">
+
+        </br>
+    </div>
+    <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" name="Zip" id="inputZip">
+    </div>
+    </div>                
+
+    <br>
+    <hr>
+    <br>
+    <H5>Business Information</H5>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+        <label for="ftEmp"># of Full-Time Employees</label>
+        <input type="text" class="form-control" name="Full-Time-Employees" id="ftEmp">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="ptEmp"># of Part-Time Employees</label>
+        <input type="text" class="form-control" name="Part-Time-Employees" id="ptEmp">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="years">How may years in business?</label>
+        <input type="text" class="form-control" name="Years-in-Business" id="years">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="loc">How many business locations?</label>
+        <input type="text" class="form-control" name="Number-of-Locations" id="loc">
+    </div>
+
+    </div>
+<br>
+<hr>
+<br>
+    <h5>Current Coverage</h5>
+    
+    <div class="form-row">
+    <div class="form-group col-md-6">
+    <label for="carrierName">Carrier Name</label>
+    <input type="carrierName" class="form-control" name="Carrier-Name" id="carrierName">
+</div>
+<div class="form-group col-md-6">
+    <label for="policyNumber">Policy Number</label>
+    <input type="policyNumber" class="form-control" name="Policy-Number" id="policyNumber">
+</div>
+</div>
+<br>
+
+    <div class="form-group col-md-12">
+        <label for="insType"><h5>Current Type of Coverage</h5></label>
+        <p>example: General Liability, Contractors Insurance, Property/Building and/or Content, Commercial Auto, Workers Comp, Other (if other, please specify)</p>
+        <input type="insType" class="form-control" name="Ins-Type" id="insType">
+    </div>
+
+<br>
+<hr>
+<br>
+<h5>Property/Premises Information</h5>
+<div class="form-group">
+    <label for="propertyAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" name="Property-Location" placeholder="1234 Main St">
+</div>
+<div class="form-row">
+<div class="form-group col-md-6">
+    <label for="inputCity">City</label>
+    <input type="text" class="form-control" name="Property-Location" id="inputCity">
+</div>
+<div class="form-group col-md-4">
+    <label for="inputState">State</label>
+    <input id="inputState" name="Property-State" class="form-control">
+
+</div>
+<div class="form-group col-md-2">
+    <label for="inputZip">Zip</label>
+    <input type="text" class="form-control" name="Property-Zip" id="inputZip">
+</div>
+</div>  
+<div class="form-row">
+    <div class="form-group col-md-4">
+    <label for="year">Year Built</label>
+    <input type="text" class="form-control" name="Year-Built" id="year">
+</div>
+<div class="form-group col-md-4">
+    <label for="occupired">% Occupied</label>
+    <input type="text" class="form-control" name="%-Occupied" id="occupied">
+</div>
+<div class="form-group col-md-4">
+    <label for="stories">Stories</label>
+    <input type="text" class="form-control" name="Stories" id="stories">
+</div>
+<div class="form-group col-md-4">
+    <label for="sqFootage">Sq. Footage</label>
+    <input type="text" class="form-control" nmae="Sq-Footage" id="sqFootage">
+</div>
+<div class="form-group col-md-4">
+    <label for="bldValue">Building Value</label>
+    <input type="text" class="form-control" name="Building-Value" id="bldValue">
+</div>
+<div class="form-group col-md-4">
+    <label for="content">Content</label>
+    <input type="text" class="form-control" name="Content-Value" id="content">
+</div>
+
+
+
+    <div class="form-group col-md-4">
+    <label for="sprinklers">Sprinklers?</label>
+    <input type="text" class="form-control" name="Spriklers" id="sprinklers">
+</div>
+<div class="form-group col-md-4">
+    <label for="burglarAlarm">Burlar Alarm?</label>
+    <input type="text" class="form-control" name="Burglar-Alarm" id="burglarAlarm">
+</div>
+<div class="form-group col-md-4">
+    <label for="ownerOccupied">Owner Occupied?</label>
+    <input type="text" class="form-control" name="Owner-Occupied" id="ownerOccupied">
+</div>
+</div>
+<br>
+
+<br><hr><br>
+<h5>Insurance Information</h5>
+
+<div class="form-row">
+    <div class="form-group col-md-3">
+    <label for="ppAmount">Business Personal Property Amount </label>
+    <input type="text" class="form-control" name="Bsuiness-Personal-Property-Amount" id="ppAmount">
+</div>
+<div class="form-group col-md-3">
+    <label for="grossSales">Annual Gross Sales (Before Taxes)</label>
+    <input type="text" class="form-control" name="Annual-Gross-Sales" id="grossSales">
+</div>
+<div class="form-group col-md-3">
+    <label for="stories">Payroll</label>
+    <input type="text" class="form-control" name="Payroll" id="payroll">
+</div>
+<div class="form-group col-md-3">
+    <label for="liabReq">Liablity Limites Requested</label>
+    <input type="text" class="form-control" name="Liability-Limit-Request" id="liabReq">
+</div>
+
+</div>
+
+<div class="container-sm">
+    <div class="form-group">
+        
+    <label for="exampleFormControlTextarea1">Additional Information (Claims)</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="Additional-Info" rows="2"></textarea>
+    </div>
+</div>
+<br><hr><br>
+
+<div class='btAutoForm'>
+        <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-info" type="button"><a href="CommercialInsurance.html">Back</a></button>
+        <button class="btn btn-info" type="submit">Submit</button>
+    </div>
+</div>
+
+</div>
+        
+
+</form>
+        
+
+<br><br><br>
+
+<div class='container-fluid'>
+    <div class="text-center">
+        <p>Please Note that coverage cannot be bound via quote request form</p>
+    </div>
+    
+</div>
+<br>
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<footer>
+    <div id='footer'></div>
+</footer>
+
+<!--my javascript code-->
+<link rel="javascript" href="/Public/js/script.js" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!--Bootstrap CDN jQuery-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script> 
+    $(function(){
+    $("#menu").load("assets/components/headerNav.html"); 
+    });
+
+</script> 
+<script>
+    $(function(){
+    $("#footer").load("assets/components/footer.html"); 
+    });
+
+
+</script>
+</body>
+</html>

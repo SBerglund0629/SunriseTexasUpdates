@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> 
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!--StyleSheet-->
+    
+    <link rel="stylesheet" href="/css/style-sheet.css">
+
+    <title>JGI - Renters</title>
+    <link rel='icon' type='image/jpg' href="/images/Logo/FaviconLogo.jpg">
+</head>
+
+<body>
+    <!--Req quote button and phone info-->    
+        <!--Logo row to the right of the site-->
+
+
+    <!--Navbar-->
+    <nav>
+        <div id="menu">
+    </nav>
+
+<br><br>
+
+<!--Body-->
+
+    <!--Renter's Quote Request-->
+    <div class="container-md">
+        <h2 class='autoReq'>Renters Request</h2>
+    <br>    
+        
+    <form  action="https://formsubmit.co/docs@jgiatx.com" method="POST">
+        <input type="hidden" name="_next" value="https://jgarciains.com/ThankYou.html">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Renters Quote Request">
+        
+        
+        <p><h5>Primary Insured</h5></p>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name">First Name</label>
+                <input type="name" class="form-control" name="First-Name" id="firstName">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="lastName">Last Name</label>
+                <input type="lastName" class="form-control" name="Last-Name" id="lastName">
+            </div>
+        </div>
+    
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="DOB">DOB</label>
+                <input type="DOB" class="form-control" name="DOB" id="DOB">
+        </div>
+            <div class="form-group col-md-6">
+                <label for="ocupation">Ocupation</label>
+                <input type="ocupation" class="form-control" name="Ocupation" id="Ocupation">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="Email" id="email">
+        </div>
+            <div class="form-group col-md-6">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="phoneNumber" class="form-control" name="Phone-Number" id="phoneNumber">
+            </div>
+        </div>
+    
+        <p><h5>Additional Insured</h5></p>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="firstName-2">First Name</label>
+                <input type="lastName-2" class="form-control" name="First-Name-2" id="FirstName-2">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="lastName-2">Last Name</label>
+                <input type="LastName-2" class="form-control" name="Last-Name-2" id="LastName-2">
+            </div>
+        </div>
+    
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="DOB-2">DOB</label>
+                <input type="DOB-2" class="form-control" name="DOB-2" id="DOB-2">
+        </div>
+            <div class="form-group col-md-6">
+                <label for="ocupation-2">Ocupation</label>
+                <input type="ocupation-2" class="form-control" name="Ocupation-2" id="Ocupation-2">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="email-2">Email</label>
+                <input type="email-2" class="form-control" name="Email-2" id="email-2">
+        </div>
+            <div class="form-group col-md-6">
+                <label for="phoneNumber-2">Phone Number</label>
+                <input type="phoneNumber-2" class="form-control" name="Phone-Number-2" id="phoneNumber-2">
+            </div>
+        </div>
+
+
+    <p><h5></h5></p>
+    <div class="form-row">
+            <div class="form-group col-md-8">
+            <label for="inputAddress">Property Location Address</label>
+        <input type="text" class="form-control" id="inputAddress" name="Mailing-Address" placeholder="">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputAddress">Apartment Number or Unit</label>
+            <input type="text" class="form-control" id="inputAddress" name="Mailing-Address" placeholder=""> 
+        </div>
+    
+    
+    </div>
+
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" name="Mailing-City" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <input id="inputState" class="form-control" name="Mailing-State" id="inputZip">
+    </div>
+    <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" name="Mailing-Zip" id="inputZip">
+    </div>
+    </div>      
+    
+    <hr>
+    <p><h5>Additional Information</h5></p>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+        <label for="claimDate">Name of Complex</label>
+        <input type="text" class="form-control" name="Complex-Name" id="complexName">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="amountPaid">Name Property Assistant</label>
+        <input type="text" class="form-control" name="Property-Assistant" id="Property-Assistant">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="claimType">Phone Number</label>
+        <input type="text" class="form-control" name="Complex-PhoneNumber" id="complexPhoneNumber">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="claimDes">Email</label>
+        <input type="text" class="form-control" name="Complex-Email" id="complexEmail">
+        
+    </div>
+    </div>
+    
+    <hr>
+
+
+
+      
+ <!--  
+    <p><h5>Property Information</h5></p>
+        <div class="form-group">
+            <label for="inputAddress">Property Address</label>
+            <input type="text" class="form-control" id="inputAddress" name="Property-Address" placeholder="1234 Main St">
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" name="Property-City" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <input id="inputState" class="form-control" name="Property-State" id="inputState">
+    
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" name="Property-Zip" id="inputZip">
+        </div>
+        </div>  
+        <br> 
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="stories">How Many Stories:</label>
+                <p>1 Story, 1.5 Stories, 2 Stories, Split-Level, Other (please specify) </p>
+                <input type="text" class="form-control" name="Stories" id="carrierName" >
+            </div>
+            <div class="form-group col-md-6">
+                <label for="construction">Construction Type:</label>
+                <p>Wood, Stucco, Masonry, Brick Veneer, Other (please specify)</p>
+                <input type="construction" class="form-control" name="Constrcution" id="policyNumber">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="stories">How Many Units:</label>
+                <p>1, 2, 3, 4, 5+ (If more than 5, please specify) </p>
+                <input type="text" class="form-control" name="Units" id="carrierName" >
+            </div>
+    
+            <div class="form-group col-md-6">
+                <label for="stories">What type of building is this?</label>
+                <p>Apartment, Condo, Townhouse, House, Manufactured/Mobile Home</p>
+                <input type="text" class="form-control" name="Building-Type" id="carrierName" >
+            </div>    
+        </div>             
+
+        <div class="form-group col-md-12">
+            <label for="otherFeatures">Other Features:</label>
+            <p>Deadbolts, Smoke Detectors, Fire Extinguisher, Central Station Fire and/or Burglar Alarm, Swimming Pool, Trampoline, Other (please specify)</p>
+            <textarea class="form-control" rows="2" name="Other-Features" id="otherFeatures"></textarea>
+        </div>
+        <br><hr><br>
+    
+        <p><h5>Coverage Information</h5></p>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="carrierName">Carrier Name</label>
+        <input type="carrierName" class="form-control" name="Carrier-Name" id="carrierName">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="policyNumber">Policy Number</label>
+        <input type="policyNumber" class="form-control" name="Policy-Number" id="policyNumber">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="expiration">Expiration Date</label>
+        <input type="expiration" class="form-control" name="Expiration-Date" id="expiration">
+    </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="carrierName">Current Coverage Limits</label>
+        <input type="carrierName" class="form-control" name="Current-Coverage" id="carrierName">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="policyNumber">Current Deductible</label>
+        <input type="policyNumber" class="form-control" name="Current-Deductible" id="policyNumber">
+    </div>
+
+    </div>
+    <br><hr><br>
+    
+    <p><h5>Desired Coverage</h5></p>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="dedDesired">Deductible</label>
+            <input type="text" class="form-control" name='Deductible' id="dedDesired">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="liabDesired">Amount of Liablity Desired</label>
+            <input type="text" class="form-control" name="Liability" id="liabDesired">
+        </div>
+    </div>
+    
+    <div class="form-group">
+            <label for="updates">Is your home older than 20 years? If so, what updates have been done?</label>
+            <textarea class='form-control' rows="2" name="Additional-Updates"></textarea>
+    </div>
+    <br><hr><br>
+    <p><h5>Claims?</h5></p>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+        <label for="claimDate">Date of Claim</label>
+        <input type="text" class="form-control" name="01-Claim" id="claimDate">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="amountPaid">Amount Paid</label>
+        <input type="text" class="form-control" name="01-Claim-Payout" id="amountPaid">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="claimType">Claim Type</label>
+        <input type="text" class="form-control" name="01-Claim-Type" id="claimType">
+    </div>
+    <div class="form-group col-md-12">
+        <label for="claimDes">Description</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name="01-Claim-Description" rows="2"></textarea>
+        
+    </div>
+    </div>
+    
+    <hr>
+    
+    <div class="form-row">
+        <div class="form-group col-md-4">
+        <label for="claimDate">Date of Claim</label>
+        <input type="text" class="form-control" name="02-Claim" id="claimDate">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="amountPaid">Amount Paid</label>
+        <input type="text" class="form-control" name="02-Claim-Payout" id="amountPaid">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="claimType">Claim Type</label>
+        <input type="text" class="form-control" name="02-Claim-Type" id="claimType" rows="3">
+    </div>
+    <div class="form-group col-md-12">
+        <label for="claimDes">Description</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name='02-Claim-Description' rows="2"></textarea>
+        
+    </div>
+    </div>
+    
+    <hr>
+ -->    
+    
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Any other information to add? </label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name='Additional-Info' rows="2"></textarea>
+        </div>
+    
+        <br><hr><br>
+    
+    <div class='btAutoForm'>
+            <div class="d-grid gap-2 d-md-block">
+            <button class="btn btn-info" type="button"><a href="HomeInsurance.html">Back</a></button>
+            <button class="btn btn-info" type="submit">Submit</button>
+        </div>
+    </div>
+    <br>
+    </div>
+    </form>
+    </div>
+    
+    
+    <br><br><br>
+    
+    <div class='container-fluid'>
+        <div class="text-center">
+            <p>Please Note that coverage cannot be bound via quote request form</p>
+        </div>
+        
+    </div>
+    <br>
+
+</form>
+
+
+
+<!--Footer-->
+<footer>
+    <div id='footer'></div>
+</footer>
+
+
+
+
+<!--my javascript code-->
+<link rel="javascript" href="Public/js/script.js" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!--Bootstrap CDN jQuery-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script> 
+    $(function(){
+    $("#menu").load("assets/components/headerNav.html"); 
+    });
+
+</script> 
+<script>
+    $(function(){
+    $("#footer").load("assets/components/footer.html"); 
+    });
+</script>
+</body>
+</html>
