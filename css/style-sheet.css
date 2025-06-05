@@ -345,11 +345,8 @@ ol>li:before {
 }
 
 .hero-section {
-background-color: #f8f8f8; /* Light grey/off-white background */
-position: relative;
-overflow: hidden;
-padding: 50px 0;
-
+  padding-top: 0;
+  padding-bottom: 50px;
 }
 
 
