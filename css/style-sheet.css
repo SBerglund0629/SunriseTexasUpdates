@@ -427,25 +427,21 @@ margin-bottom: 30px;
 
 
 .btn-get-a-quote {
-background-color:  #fc9d04; /* Orange color */
-color: white;
-padding: 15px 30px;
-text-decoration: none;
-border-radius: 5px;
-font-weight: bold;
-font-size: 1.1em;
-display: inline-block;
-transition: background-color 0.3s ease;
-
+  background-color: #fc9d04; /* Orange color */
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.1em;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 
 .btn-get-a-quote:hover {
-background-color: #fc9d04; /* Slightly darker orange on hover */
-color: black;
-
+  background-color: #f85a33; /* Darker orange */
+  color: black;              /* Black text */
 }
-
 
 
 /* Image Column with Adjusted Fade Effect */
