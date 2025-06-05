@@ -418,7 +418,10 @@ margin-bottom: 20px;
 
 
 .sub-text {
-  font-size: clamp(1em, 1.2vw, 1.2em); /* Auto scales with screen size */
+font-size: 1.2em;
+color: #555;
+margin-bottom: 30px;
+
 }
 
 
